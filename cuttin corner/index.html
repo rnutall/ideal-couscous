@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />    
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Cuttin-Corner</title>
+     </head>
+     
+ <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <header>
+        <h1>Cuttin Corner</h1>
+    </header>
+
+    
+    <main>  
+      <!-- Calendly inline widget begin -->
+
+      <div id="calendly-embed" style="min-width: 320px; height: 700px"></div>
+
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+      ></script>
+
+      <script>
+        Calendly.initInlineWidget({
+          url: "https://calendly.com/cuttin-corner",
+          parentElement: document.getElementById("calendly-embed"),
+        });
+      </script>
+
+      <!-- Calendly inline widget end -->
+    </main>
+
+  <footer><h5>Developed by Rodney "Rodzilla" Nutall </h5></footer>
+</body>
+</html>
