@@ -50,3 +50,9 @@
 .read-the-docs {
   color: #888;
 }
+
+footer {
+  padding: 2em;
+  : center;
+  color: #646cff;
+}
