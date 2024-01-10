@@ -47,6 +47,15 @@
   padding: 1em;
 }
 
+.tag {
+  text-align: center;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
 .read-the-docs {
   color: #888;
 }
