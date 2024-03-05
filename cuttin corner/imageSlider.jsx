@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./App.css";
 import React from "react";
  
 const ImageSlider = ({ images }) => {
@@ -12,12 +11,12 @@ const ImageSlider = ({ images }) => {
         slidesToScroll: 1,
         lazyLoad: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1500,
     };
     return (
         <>
             <div className="tag">
-                <h1>Image Gallery</h1>
+                <h4>Image Gallery</h4>
             </div>
             <div className="imgslider">
                 <Slider {...settings}>

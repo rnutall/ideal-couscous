@@ -53,11 +53,14 @@
 
 .slick-slide img {
   margin: auto;
+  width: auto;
+  height: auto;
+  max-width: 500px;
+}
+.app {
+  color: #888;
   width: 50%;
   height: 50%;
-}
-.read-the-docs {
-  color: #888;
 }
 
 footer {
