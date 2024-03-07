@@ -16,7 +16,7 @@ const ImageSlider = ({ images }) => {
     return (
         <>
             <div className="tag">
-                <h4>Image Gallery</h4>
+                <h4>Product Gallery</h4>
             </div>
             <div className="imgslider">
                 <Slider {...settings}>
