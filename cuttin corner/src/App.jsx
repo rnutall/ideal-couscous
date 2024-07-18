@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import nutLogo from "./assets/20180320_165555962_iOS.png";
-import images from "./images.jsx";
-import ImageSlider from "./imageSlider.jsx";
+import images from "/images.jsx";
+import ImageSlider from "/imageSlider.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
